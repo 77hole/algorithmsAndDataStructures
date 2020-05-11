@@ -1,8 +1,10 @@
-public class DepthSreach {
+import java.util.List;
+
+public class WidthSreach {
     boolean[] ismarke;
     Integer[] paths;
     int start ;
-    public DepthSreach(Graph g,int start){
+    public WidthSreach(Graph g,int start){
         ismarke = new boolean[g.V()] ;
         paths = new Integer[g.V()] ;
         this.start = start;
@@ -14,12 +16,11 @@ public class DepthSreach {
 
     public void dfs(Graph g,int start){
         ismarke[start] = true;
-        for (Integer pr:g.args(start)) {
-            if(!ismarke[pr]){ //如果没有被标记
-                ismarke[pr] = true;
-                paths[pr] = start;
-                dfs(g,pr);
-            }
+        Queue<Integer> queue = new Queue<>();
+        List<Integer> datas  = g.args(start);
+
+        for(int i = 0 ; i < datas.size() ; i++){
+
         }
     }
 
