@@ -19,6 +19,10 @@ public class Queue<T> {
         count ++;
     }
 
+    public T get(){
+      return frist.value;
+    }
+
     public List<T> values(){
         List<T> list = new ArrayList<>();
         values(frist,list);

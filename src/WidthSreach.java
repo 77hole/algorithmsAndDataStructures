@@ -17,10 +17,14 @@ public class WidthSreach {
     public void dfs(Graph g,int start){
         ismarke[start] = true;
         Queue<Integer> queue = new Queue<>();
-        List<Integer> datas  = g.args(start);
-
-        for(int i = 0 ; i < datas.size() ; i++){
-
+        queue.add(start);
+        while (queue.size() > 0){
+            List<Integer> datas  = g.args(queue.get());
+            for(int i = 0 ; i<datas.size() ; i++){
+                if(!ismarke[i]){
+                    queue.add(i);
+                }
+            }
         }
     }
 
@@ -43,7 +47,7 @@ public class WidthSreach {
         g.addPath(0,5);
         g.addPath(5,3);
         g.addPath(3,1);
-        DepthSreach sreach = new DepthSreach(g,0);
+        WidthSreach sreach = new WidthSreach(g,0);
         String path = sreach.getPath(4);
         System.out.println(path);
     }
