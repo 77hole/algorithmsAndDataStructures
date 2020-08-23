@@ -1,5 +1,8 @@
 import java.util.List;
 
+/**
+ * 无向图
+ * */
 public class Graph {
     private Bag<Integer>[] args;
     private Integer V;

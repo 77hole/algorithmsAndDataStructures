@@ -20,6 +20,7 @@ public class Queue<T> {
     }
 
     public T get(){
+        if(frist == null){return null;}
       return frist.value;
     }
 
@@ -37,6 +38,7 @@ public class Queue<T> {
 
     public void remove(){
         frist = frist.next;
+        count --;
     }
 
     public int size(){

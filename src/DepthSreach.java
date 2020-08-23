@@ -42,6 +42,7 @@ public class DepthSreach {
         g.addPath(0,5);
         g.addPath(5,3);
         g.addPath(3,1);
+        g.addPath(0,4);
         DepthSreach sreach = new DepthSreach(g,0);
         String path = sreach.getPath(4);
         System.out.println(path);

@@ -19,12 +19,15 @@ public class WidthSreach {
         Queue<Integer> queue = new Queue<>();
         queue.add(start);
         while (queue.size() > 0){
-            List<Integer> datas  = g.args(queue.get());
-            for(int i = 0 ; i<datas.size() ; i++){
+            int st = queue.get();
+            for(Integer i : g.args(queue.get())){
                 if(!ismarke[i]){
                     queue.add(i);
+                    ismarke[i] = true;
+                    paths[i] = st;
                 }
             }
+            queue.remove();
         }
     }
 
@@ -47,8 +50,9 @@ public class WidthSreach {
         g.addPath(0,5);
         g.addPath(5,3);
         g.addPath(3,1);
+        g.addPath(0,4);
         WidthSreach sreach = new WidthSreach(g,0);
-        String path = sreach.getPath(4);
+        String path = sreach.getPath(2);
         System.out.println(path);
     }
 }
