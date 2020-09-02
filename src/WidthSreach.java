@@ -52,7 +52,7 @@ public class WidthSreach {
         g.addPath(3,1);
         g.addPath(0,4);
         WidthSreach sreach = new WidthSreach(g,0);
-        String path = sreach.getPath(2);
+        String path = sreach.getPath(4);
         System.out.println(path);
     }
 }
