@@ -1,10 +1,10 @@
-import java.util.List;
+package graph;
 
 public class WidthSreach {
     boolean[] ismarke;
     Integer[] paths;
     int start ;
-    public WidthSreach(Graph g,int start){
+    public WidthSreach(Graph g, int start){
         ismarke = new boolean[g.V()] ;
         paths = new Integer[g.V()] ;
         this.start = start;

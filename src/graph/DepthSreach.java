@@ -1,3 +1,5 @@
+package graph;
+
 public class DepthSreach {
     boolean[] ismarke;
     Integer[] paths;
@@ -17,7 +19,7 @@ public class DepthSreach {
         }
     }
 
-    public void dfs(Graph g,int start){
+    public void dfs(Graph g, int start){
     //    if(ismarke[start] == true)return;
         ismarke[start] = true;
         for (Integer pr:g.args(start)) {

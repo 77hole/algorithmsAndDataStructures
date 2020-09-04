@@ -2,10 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f89ee24e-d84c-432e-a5b3-d0a0e956d2cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/digraph/Digraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projecteuler/NO2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projecteuler/NO3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projecteuler/NO4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projecteuler/NO5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projecteuler/No1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DepthSreach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DepthSreach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WidthSreach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WidthSreach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/Bag$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/Bag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/RedBlackTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/RedBlackTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/Tree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/Bag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DepthSreach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/DepthSreach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RedBlackTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/three/RedBlackTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/three/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WidthSreach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/WidthSreach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +51,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gUJnjFDOpbo2Jq2AtDG6LCYmZt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -50,37 +72,74 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.DepthSreach">
-    <configuration name="Bag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bag" />
+  <component name="RunManager" selected="Application.NO5">
+    <configuration name="NO2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="projecteuler.NO2" />
       <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="projecteuler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DepthSreach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DepthSreach" />
+    <configuration name="NO3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="projecteuler.NO3" />
       <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="projecteuler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedBlackTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RedBlackTree" />
+    <configuration name="NO4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="projecteuler.NO4" />
       <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="projecteuler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NO5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="projecteuler.NO5" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="projecteuler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="No1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="projecteuler.No1" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="projecteuler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Tree" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree" />
-      <module name="Test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WidthSreach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WidthSreach" />
+      <option name="MAIN_CLASS_NAME" value="three.Tree" />
       <module name="Test" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,10 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DepthSreach" />
-        <item itemvalue="Application.WidthSreach" />
-        <item itemvalue="Application.Bag" />
-        <item itemvalue="Application.RedBlackTree" />
+        <item itemvalue="Application.NO5" />
+        <item itemvalue="Application.NO4" />
+        <item itemvalue="Application.NO3" />
+        <item itemvalue="Application.NO2" />
+        <item itemvalue="Application.No1" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +183,10 @@
       <workItem from="1589249538108" duration="4939000" />
       <workItem from="1598163408256" duration="3994000" />
       <workItem from="1598235355569" duration="147000" />
-      <workItem from="1599038087618" duration="5251000" />
+      <workItem from="1599038087618" duration="11562000" />
+      <workItem from="1599100684977" duration="3158000" />
+      <workItem from="1599119349634" duration="23000" />
+      <workItem from="1599125655386" duration="807000" />
     </task>
     <servers />
   </component>
@@ -140,6 +203,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="739" y="404" width="441" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1599046374644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="404" width="441" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1599046374644" />
     <state x="560" y="113" key="CommitChangelistDialog2" timestamp="1599038296960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -152,61 +219,76 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599038295666" />
-    <state width="1859" height="171" key="GridCell.Tab.0.bottom" timestamp="1599043139933">
+    <state width="1859" height="233" key="GridCell.Tab.0.bottom" timestamp="1599133910491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1859" height="171" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599043139933" />
-    <state width="1859" height="171" key="GridCell.Tab.0.center" timestamp="1599043139933">
+    <state width="1859" height="233" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599133910491" />
+    <state width="1859" height="233" key="GridCell.Tab.0.center" timestamp="1599133910491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1859" height="171" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599043139933" />
-    <state width="1859" height="171" key="GridCell.Tab.0.left" timestamp="1599043139933">
+    <state width="1859" height="233" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599133910491" />
+    <state width="1859" height="233" key="GridCell.Tab.0.left" timestamp="1599133910491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1859" height="171" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599043139933" />
-    <state width="1859" height="171" key="GridCell.Tab.0.right" timestamp="1599043139933">
+    <state width="1859" height="233" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599133910491" />
+    <state width="1859" height="233" key="GridCell.Tab.0.right" timestamp="1599133910491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1859" height="171" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599043139933" />
-    <state width="1859" height="302" key="GridCell.Tab.1.bottom" timestamp="1599043132277">
+    <state width="1859" height="233" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599133910491" />
+    <state width="1859" height="302" key="GridCell.Tab.1.bottom" timestamp="1599101936078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1859" height="302" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599043132277" />
-    <state width="1859" height="302" key="GridCell.Tab.1.center" timestamp="1599043132277">
+    <state width="1859" height="302" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599101936078" />
+    <state width="1859" height="302" key="GridCell.Tab.1.center" timestamp="1599101936077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1859" height="302" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599043132277" />
-    <state width="1859" height="302" key="GridCell.Tab.1.left" timestamp="1599043132277">
+    <state width="1859" height="302" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599101936077" />
+    <state width="1859" height="302" key="GridCell.Tab.1.left" timestamp="1599101936077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1859" height="302" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599043132277" />
-    <state width="1859" height="302" key="GridCell.Tab.1.right" timestamp="1599043132277">
+    <state width="1859" height="302" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599101936077" />
+    <state width="1859" height="302" key="GridCell.Tab.1.right" timestamp="1599101936078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1859" height="302" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599043132277" />
+    <state width="1859" height="302" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599101936078" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tree.java</url>
+          <url>file://$PROJECT_DIR$/src/three/Tree.java</url>
           <line>218</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tree.java</url>
+          <url>file://$PROJECT_DIR$/src/three/Tree.java</url>
           <line>196</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/RedBlackTree.java</url>
+          <url>file://$PROJECT_DIR$/src/three/RedBlackTree.java</url>
           <line>135</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/WidthSreach.java</url>
+          <url>file://$PROJECT_DIR$/src/graph/WidthSreach.java</url>
           <line>22</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/projecteuler/NO2.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/projecteuler/NO3.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/projecteuler/NO4.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
